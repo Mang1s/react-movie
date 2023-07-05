@@ -1,0 +1,17 @@
+.movie-card {
+   h2 {
+      color: #c6c6c6;
+   }
+   box-shadow: #c6c6c6;
+   border: 1px solid #c6c6c6;
+   border-radius: 15px;
+   margin-bottom: 10px;
+
+   &:hover {
+      // filter: brightness(50%);
+      background-color: #dfdfdf;
+      cursor: pointer;
+      transform: scale(105%);
+      transition: 0.3s ease-out;
+   }
+}
