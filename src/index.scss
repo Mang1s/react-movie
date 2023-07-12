@@ -1,0 +1,31 @@
+#root {
+   #wrapper {
+      min-height: 100vh;
+   }
+
+   .theme-dark,
+   .theme-light {
+      height: 100%;
+      transition: 0.5s ease-in;
+   }
+}
+
+.theme-dark {
+   color: #c9c9c9;
+}
+
+.theme-light {
+   color: #495057;
+      background-color: #212121;
+}
+
+button.btn {
+   transition: 0.3s ease-in-out;
+   box-shadow: #6c757d8c 3px 3px;
+   translate: -3px -3px;
+
+   &.active {
+      box-shadow: none;
+      translate: 0 0;
+   }
+}
